@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "homepage": "https://Fatymaah.github.io/Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+	"deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatymaah/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatymaah/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Fatymaah/Portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "sass": "^4.14.1"
+  }
+}
