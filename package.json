@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://Fatymaah.github.io/Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "scss": "node-sass -w scss/ -o dist/css/ --recursive",
 	"deploy": "gh-pages -d dist"
   },
   "repository": {
